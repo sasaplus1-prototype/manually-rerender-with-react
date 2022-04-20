@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.5",
+    "@types/react-dom": "^18.0.1",
+    "esbuild": "^0.14.36"
+  },
+  "private": true,
+  "scripts": {
+    "build": "esbuild --bundle index.ts --outfile=index.js"
+  }
+}
